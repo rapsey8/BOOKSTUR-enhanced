@@ -1,0 +1,31 @@
+.filter-container {
+  padding: 25px;
+  text-align: center;
+  background: var(--gold);
+}
+
+.filter-btn {
+  padding: 12px 24px;
+  margin: 0 8px;
+  border: 2px solid var(--primary-red);
+  background: var(--white);
+  color: var(--primary-red);
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: 800;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+
+.filter-btn.active,
+.filter-btn:hover {
+  background: var(--primary-red);
+  color: var(--white);
+}
+@media (max-width: 768px) {
+    .filter-btn{
+        width:100px;
+        padding: 5px 14px;
+        font-size:12px;
+    }
+}
